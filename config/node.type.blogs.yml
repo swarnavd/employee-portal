@@ -1,0 +1,17 @@
+uuid: 1113b90a-a019-49e4-a6b6-bb44547b4147
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Blogs
+type: blogs
+description: 'Blogger can add blogs.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

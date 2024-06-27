@@ -1,0 +1,25 @@
+uuid: 4afd2ef4-7908-452b-aaf2-556a76892676
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.blogs
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_blogs
+theme: olivero
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:blogs'
+settings:
+  id: 'system_menu_block:blogs'
+  label: Blogs
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

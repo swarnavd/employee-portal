@@ -1,0 +1,21 @@
+uuid: ce7b424d-6026-4200-8b1f-4ccc6f685370
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blogs
+  module:
+    - node
+id: blogger
+label: Blogger
+weight: 5
+is_admin: null
+permissions:
+  - 'create blogs content'
+  - 'delete any blogs content'
+  - 'delete blogs revisions'
+  - 'delete own blogs content'
+  - 'edit any blogs content'
+  - 'edit own blogs content'
+  - 'revert blogs revisions'
+  - 'view blogs revisions'

@@ -1,0 +1,29 @@
+uuid: 42307b33-a1d0-4de4-83f4-74b0c91e0f9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_project
+    - node.type.employee_data
+    - node.type.project
+id: node.employee_data.field_total_project
+field_name: field_total_project
+entity_type: node
+bundle: employee_data
+label: 'Total project'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      project: project
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

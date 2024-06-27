@@ -1,0 +1,60 @@
+uuid: dde74436-5ed9-42f6-8bf8-8ed35713ef92
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.blog_view
+    - field.field.node.blogs.body
+    - field.field.node.blogs.comment
+    - field.field.node.blogs.field_blog_title
+    - field.field.node.blogs.field_creator
+    - field.field.node.blogs.field_image
+    - field.field.node.blogs.layout_builder__layout
+    - image.style.medium
+    - node.type.blogs
+  module:
+    - image
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.blogs.blog_view
+targetEntityType: node
+bundle: blogs
+mode: blog_view
+content:
+  body:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 150
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_blog_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  comment: true
+  field_creator: true
+  layout_builder__layout: true
+  links: true

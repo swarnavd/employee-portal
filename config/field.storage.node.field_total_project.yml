@@ -1,0 +1,19 @@
+uuid: 9bab61c1-91f1-44b2-8d86-58dc5a70b738
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_total_project
+field_name: field_total_project
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

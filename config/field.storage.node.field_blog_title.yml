@@ -1,0 +1,21 @@
+uuid: 87e410af-ada4-4001-b7c2-ca92cc87c503
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_blog_title
+field_name: field_blog_title
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

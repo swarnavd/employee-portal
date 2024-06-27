@@ -1,0 +1,21 @@
+uuid: 84dfca93-3db6-43e4-b848-60b37e4ace70
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.employee_data
+  module:
+    - node
+id: hr
+label: HR
+weight: 4
+is_admin: null
+permissions:
+  - 'create employee_data content'
+  - 'delete any employee_data content'
+  - 'delete employee_data revisions'
+  - 'delete own employee_data content'
+  - 'edit any employee_data content'
+  - 'edit own employee_data content'
+  - 'revert employee_data revisions'
+  - 'view employee_data revisions'
