@@ -1,0 +1,19 @@
+uuid: 0a12a600-195e-4db5-813b-b2b338450fba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_company_name
+    - node.type.employee_data
+id: node.employee_data.field_company_name
+field_name: field_company_name
+entity_type: node
+bundle: employee_data
+label: 'Company name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

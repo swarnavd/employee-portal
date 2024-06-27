@@ -1,0 +1,8 @@
+uuid: c8befa6f-86ab-4a58-a886-9a7cdbf74944
+langcode: en
+status: true
+dependencies: {  }
+id: contents
+label: Contents
+description: ''
+locked: false

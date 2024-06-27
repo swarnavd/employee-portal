@@ -1,0 +1,50 @@
+uuid: 7498c8c4-dc38-421e-b0df-2ca5ddb16805
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.custom_comment
+    - field.field.comment.custom_comment.comment_body
+    - field.field.comment.custom_comment.field_your_email
+    - field.field.comment.custom_comment.field_your_name
+  module:
+    - text
+id: comment.custom_comment.default
+targetEntityType: comment
+bundle: custom_comment
+mode: default
+content:
+  comment_body:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_your_email:
+    type: email_default
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+  field_your_name:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  author: true

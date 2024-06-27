@@ -1,0 +1,26 @@
+uuid: 3af3d314-ad38-4e30-9680-fda0b6350961
+langcode: en
+status: true
+dependencies:
+  module:
+    - copyright_footer
+  theme:
+    - olivero
+id: olivero_copyrightfooter
+theme: olivero
+region: footer_bottom
+weight: -9
+provider: null
+plugin: copyright_footer
+settings:
+  id: copyright_footer
+  label: 'Copyright Footer'
+  label_display: '0'
+  provider: copyright_footer
+  organization_name: 'Innoraft Solutions'
+  organization_url: 'https://training.innoraft-sites.com/'
+  year_origin: null
+  year_to_date: 2012
+  version: ''
+  version_url: ''
+visibility: {  }

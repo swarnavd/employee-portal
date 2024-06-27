@@ -1,0 +1,18 @@
+uuid: 48a75ddd-9401-481c-840d-47f71b7f9713
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+id: comment.field_your_email
+field_name: field_your_email
+entity_type: comment
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

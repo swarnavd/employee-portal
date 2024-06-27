@@ -1,0 +1,19 @@
+uuid: 15b6f2d9-7bb0-4a2b-89cd-d64e6b9b8398
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_book
+field_name: field_book
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

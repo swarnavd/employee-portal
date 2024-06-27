@@ -1,0 +1,11 @@
+uuid: d5c944d3-f470-41f0-b9ec-ca889fb48719
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+id: comment.blog_comment
+label: 'blog comment'
+description: ''
+targetEntityType: comment
+cache: true

@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 159c8632-23bb-467e-a39e-84936473d7f2
+name: employeeportal.com
+mail: swarnav.das@innoraft.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/10
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

@@ -1,0 +1,33 @@
+uuid: eade959a-1aa2-4127-ae55-02e571732c38
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.contents
+  module:
+    - system
+    - user
+  theme:
+    - olivero
+id: olivero_contents
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'system_menu_block:contents'
+settings:
+  id: 'system_menu_block:contents'
+  label: Contents
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

@@ -1,0 +1,44 @@
+uuid: f3957a20-aa8a-474c-8db0-9f3403222bbe
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.employee_data.field_age
+    - field.field.node.employee_data.field_company_name
+    - field.field.node.employee_data.field_current_project
+    - field.field.node.employee_data.field_current_salary
+    - field.field.node.employee_data.field_designation
+    - field.field.node.employee_data.field_employee_name
+    - field.field.node.employee_data.field_employee_s_picture
+    - field.field.node.employee_data.field_goal
+    - field.field.node.employee_data.field_key_characteristics
+    - field.field.node.employee_data.field_skills
+    - field.field.node.employee_data.field_total_project
+    - field.field.node.employee_data.layout_builder__layout
+    - node.type.employee_data
+  module:
+    - user
+id: node.employee_data.teaser
+targetEntityType: node
+bundle: employee_data
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_age: true
+  field_company_name: true
+  field_current_project: true
+  field_current_salary: true
+  field_designation: true
+  field_employee_name: true
+  field_employee_s_picture: true
+  field_goal: true
+  field_key_characteristics: true
+  field_skills: true
+  field_total_project: true
+  layout_builder__layout: true

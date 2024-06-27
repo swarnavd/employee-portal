@@ -1,0 +1,17 @@
+uuid: 2c8b8334-1ca8-43cb-83ed-b02ee73361ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Employee Data'
+type: employee_data
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

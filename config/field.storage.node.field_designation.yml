@@ -1,0 +1,30 @@
+uuid: 483f65f9-3f83-4840-827b-62265223b5aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_designation
+field_name: field_designation
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: drupal_developer
+      label: 'Drupal Developer'
+    -
+      value: front_end_developer
+      label: 'Front end developer'
+    -
+      value: backend_developer
+      label: 'Backend Developer'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,25 @@
+uuid: 0cb192d4-a102-4637-92b0-d462debce9e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - quicktabs
+    - system
+  theme:
+    - olivero
+id: olivero_quicktabsprojecttab
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'quicktabs_block:project_tab'
+settings:
+  id: 'quicktabs_block:project_tab'
+  label: 'QuickTabs - project tab'
+  label_display: visible
+  provider: quicktabs
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

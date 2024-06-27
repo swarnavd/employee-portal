@@ -1,0 +1,19 @@
+uuid: 1d5dbcdf-d9d5-4c2f-944f-83ea3ba0f8f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_current_salary
+    - node.type.employee_data
+id: node.employee_data.field_current_salary
+field_name: field_current_salary
+entity_type: node
+bundle: employee_data
+label: 'Current salary'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
